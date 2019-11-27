@@ -1,0 +1,80 @@
+@import 'reset.scss';
+@import 'var.scss';
+@import 'header.scss';
+@import 'nav.scss';
+@import 'why.scss';
+@import 'way.scss';
+@import 'offer.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+@import 'tablet.scss';
+
+
+@media screen and (max-width: 768px) {
+    .why__wrapper,
+    .way__conteiner,
+    .feedback__conteiner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__input::placeholder {
+        letter-spacing: 0;
+    }
+
+    // .way__step--center:before,
+    // .way__step--center:after {
+    //     display: none;
+    // }
+
+    .why__block--mod {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why__btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .why__example--mod {
+        align-self: center;
+    }
+
+    .way__step {
+        padding: 20px 10px;
+    }
+
+    .way__dec {
+    font-size: $fontSizeBase + 5;
+}
+    .way__line {
+        display: none;
+    }
+
+    .feedback__conteiner {
+        width: 100%;
+    }
+
+    .feedback__item {
+        width: 100%;
+    }
+
+    .offer__item {
+        padding: 50px 0 50px 0;
+    }
+
+    .feedback {
+        padding: 50px 0;
+    }
+
+    .feedback__title {
+        margin: 0 0 20px 0;
+    }
+
+    .footer {
+        padding: 20px 0 20px 0;
+    }
+
+}

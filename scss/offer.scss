@@ -1,0 +1,64 @@
+@import 'var.scss';
+@import 'reset.scss';
+
+.offer {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__item {
+    background-image: url('../img/hotel-bg001.jpg');
+    background-size: cover;
+    padding: 230px 0 100px 0;
+}
+
+.offer__item--second {
+    background-image: url('../img/hotel-bg002.jpg');
+}
+
+.offer__conteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    max-width: 540px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.offer__conteiner--second {
+    float: right;
+}
+
+.offer__country {
+    color: #e8e8e8;
+    font-size: $fontSizeBase + 4;
+    margin: 0 0 35px 0;
+}
+
+.offer__hotel {
+    color: $colorHeader;
+    font-size: $fontSizeBase + 4;
+    text-transform: uppercase;
+    margin: 0 0 31px 0;
+}
+
+.offer__dec {
+    color: #e8e8e8;
+    line-height: 26px;
+    margin: 0 0 48px 0;
+}
+
+// .offer__button {
+//     background-color: $colorBase;
+//     padding: 24px 0;
+//     text-transform: uppercase;
+//     color: $colorHeader;
+//     border: none;
+//     outline: none;
+//     cursor: pointer;
+//     font-family: $fontSecondary;
+//     width: 225px;
+
+//     &:hover {
+//         background-color: #0b36f68f;
+//     }
+// } 

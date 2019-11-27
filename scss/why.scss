@@ -1,0 +1,59 @@
+@import 'var.scss';
+@import 'reset.scss';
+
+.why {
+    background-image: url('../img/choose-bg.jpg');
+    background-size: cover;
+}
+
+.why__shadow {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+.why__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.why__block {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 50px;
+    // align-items: center;
+
+}
+
+.why__block--mod {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+    // align-items: center;
+    // justify-content: center;
+
+}
+
+.why__title {
+    font-family: $fontSecondary;
+    font-size: $fontSizeBase + 20;
+    margin: 100px 0 0 0;
+    color: $colorHeader;
+}
+
+.why__block {
+    width: 100%;
+}
+
+.why__dec {
+    color: #e8e8e8;
+    margin: 0 0 50px 0;
+}
+
+.why__btn {
+    letter-spacing: $baseLetterSpacing;
+}
+
+.why__example--mod {
+    align-self: flex-end;
+    margin: 0 40px 0 0;
+}

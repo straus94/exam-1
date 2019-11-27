@@ -1,0 +1,28 @@
+@import 'reset.scss';
+@import 'var.scss';
+@import 'header.scss';
+@import 'nav.scss';
+@import 'why.scss';
+@import 'way.scss';
+@import 'offer.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+@import 'tablet.scss';
+@import 'phone.scss';
+
+
+.btn {
+    background-color: $colorBase;
+    padding: 24px 0;
+    text-transform: uppercase;
+    color: $colorHeader;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: $fontSecondary;
+    width: 225px;
+        
+    &:hover {
+        background-color: #0b36f68f;
+    }
+}

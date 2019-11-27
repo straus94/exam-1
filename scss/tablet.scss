@@ -1,0 +1,61 @@
+@import 'reset.scss';
+@import 'var.scss';
+@import 'header.scss';
+@import 'nav.scss';
+@import 'why.scss';
+@import 'way.scss';
+@import 'offer.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+
+@media screen and (max-width: 990px) {
+
+    .header__form {
+        width: 90%;
+        margin: 0 auto;
+        min-width: 350px;
+    }
+
+    
+
+   .nav__conteiner {
+       flex-direction: column;
+       align-items: center;
+   } 
+
+   .nav__logo {
+       margin: 0 0 0 0;
+   }
+   
+   .nav__list {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: -20px;
+       margin-left: -40px;
+   }
+
+   .nav__item {
+       margin: 15px 0 0 0;
+   }
+
+   .nav__link:hover {
+       text-shadow: none;
+   }
+
+   .why__example--mod {
+    align-self: flex-start;
+    margin: 0 0 0 0;
+    }
+
+    // .way__step--center:before,
+    // .way__step--center:after {
+    //     display: none;
+    // }
+
+    .offer__conteiner,
+    .offer__conteiner--second {
+        margin: 0 auto;
+        float: none;
+    }
+}

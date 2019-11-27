@@ -1,0 +1,121 @@
+@import 'var.scss';
+
+.header {
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+}
+
+.header__conteiner {
+    padding: 266px 0 115px 0;
+}
+
+.header__title {
+    font-size: $fontSizeBase + 32;
+    color: $colorHeader;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    text-align: center;
+    font-size: $fontSizeBase + 6;
+    color: $colorHeader;
+    letter-spacing: $baseLetterSpacing + 4;
+    margin: 0 0 54px 0;
+}
+
+.header__form {
+    margin: 0 auto;
+    width: 650px;
+    background-color: #fff;
+    // border: 2px solid #fff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.header__wrapper-form {
+    // position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.header__input {
+    text-align: center;
+    // width: 100%;
+    padding: 19px 0;
+    display: inline-block;
+    flex-grow: 1;
+    border: 2px solid #fff;
+    
+    &::placeholder {
+        color: #999999;
+        font-size: $fontSizeBase - 2;
+        letter-spacing: $baseLetterSpacing;
+    }
+}
+
+
+
+.header__submit {
+    // position: absolute;
+    // top: 2px;
+    // right: 2px;
+    display: inline-block;
+    color: #fff;
+    background-color: $colorBase;
+    outline: none;
+    border: 2px solid #fff;
+    border-left: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 19px 15px 19px 34px;
+    // height: calc(100% - 4px);
+    font-family: $fontSecondary;
+    text-transform: uppercase;
+    font-size: $fontSizeBase - 2;
+    letter-spacing: $baseLetterSpacing -1;
+
+    &:hover {
+        background-color: #0b36f68f;
+    }
+}
+
+.header__search {
+    color: #fff;
+    margin: 0 0 0 14px;
+    // font-weight: 300;
+}
+
+.header__scroll {
+    color: #fff;
+    font-size: $fontSizeBase - 2;
+    max-width: 200px;
+    margin: 120px auto 0 auto;
+    letter-spacing: $baseLetterSpacing;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        background-color: #e2e8ec;
+        width: 7px;
+        height: 2px;
+        cursor: pointer;
+    }
+
+    &:before {
+        left: calc(50% - 6px);
+        transform: rotate(45deg);
+    }
+
+    &:after {
+        right: calc(50% - 6px);
+        transform: rotate(-45deg);
+    }
+}

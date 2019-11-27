@@ -1,0 +1,61 @@
+@import 'reset.scss';
+@import 'var.scss';
+
+.nav {
+    background-color: #5474fd;
+}
+
+.nav__conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__logo {
+    font-weight: bold;
+    color: $colorHeader;
+    // display: inline-block;
+    padding: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: $baseLetterSpacing + 2;
+    font-size: $fontSizeBase + 8;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 0 0 50px;
+}
+
+.nav__menu {
+    // display: inline-block;
+    // float: right;
+    // width: 100%;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+// .nav__conteiner {
+//     display: inline-block;
+// }
+
+.nav__item {
+    // display: inline-block;
+    margin: 0 2% 0 0;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: $colorHeader;
+    padding: 10px;
+    text-transform: uppercase;
+
+    &:hover {
+        text-shadow: 5px 5px 5px #000;
+    }
+}
+
+
+
